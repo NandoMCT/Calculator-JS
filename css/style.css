@@ -13,10 +13,12 @@ body {
     align-items: center;
     justify-content: center;
     padding: 3em;
+    min-width: 375px;
+    min-height: 400px;
 }
 
 #calc {
-    width: 400px;
+    width: 375px;
     padding: .5em;
     background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
     border-radius: 16px;
@@ -104,3 +106,4 @@ body {
 #buttons-container #equal-btn:hover {
     background-color: #29a9ffd3;
 }
+
